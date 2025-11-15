@@ -195,7 +195,7 @@ aug_img, aug_anns = swap_coco_crops(
     swap_labels=True        # Swap class labels with crops
 )
 ```
- 
+  
 ### Model Inference
 
 ```python
