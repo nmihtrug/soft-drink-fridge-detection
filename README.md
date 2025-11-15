@@ -68,7 +68,7 @@ data/original/test/_annotations.coco.json
 python train.py --generate-synthetic --input-data-root data/original --data-root data/synthetic
 ```
 
-This creates 20 augmented variations of each image by swapping object crops.
+This creates 20 augmented variations of each image by swapping object crops
 
 ### 4. Train Model
 
