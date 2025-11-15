@@ -200,7 +200,7 @@ aug_img, aug_anns = swap_coco_crops(
 
 ```python
 from ultralytics import YOLO
-
+ 
 # Load trained model
 model = YOLO("runs/train/yolov11_YYYYMMDD_HHMMSS/weights/best.pt")
 
