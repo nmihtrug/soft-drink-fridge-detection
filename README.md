@@ -1,6 +1,6 @@
 # 🥤 Soft Drinks Fridge - YOLOv11 Object Detection
 
-A complete machine learning pipeline for detecting and classifying soft drink bottles in a refrigerator using YOLOv11, with synthetic data augmentation via crop swapping.
+A complete machine learning pipeline for detecting and classifying soft drink bottles in a refrigerator using YOLOv11, with synthetic data augmentation via crop swapping
 
 <p align="center">
   <img src="figures/synthetic.gif" alt="synthetic augmentation example" width="350"/>

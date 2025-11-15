@@ -1,1 +1,1 @@
-python eval.py  --coco-json data/original/test/_annotations.coco.json --images-dir data/original/test --model weights/synthetics/yolo11m.pt
+python eval.py  --coco-json data/original/test/_annotations.coco.json --images-dir data/original/test --weights-dir weights
