@@ -19,6 +19,5 @@ PyYAML>=6.0
 tqdm>=4.65.0
 requests>=2.31.0
 
-# Optional: For Jupyter support
-jupyter>=1.0.0
-ipython>=8.0.0
+#streamlit
+streamlit

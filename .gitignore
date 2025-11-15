@@ -1,1 +1,7 @@
 __pycache__/
+.idea/*
+runs/*
+data/
+yolo11n.pt
+data.yaml
+eval_all
