@@ -29,18 +29,15 @@ def setup_dataset_yaml(data_root: str, output_path: str = "data.yaml"):
         "train": "train/images",
         "val": "valid/images",
         "test": "test/images",
-        "nc": 10,  # Number of classes (soft drink categories)
+        "nc": 7,  # Number of classes (soft drink categories)
         "names": {
-            0: "CocaCola_250ml-KUN6",
-            1: "CocaCola",
-            2: "Creamsoda",
-            3: "Fanta",
-            4: "Gingerbeer",
-            5: "Portello",
-            6: "Soda",
-            7: "Sprite",
-            8: "Water",
-            9: "retail"
+            0: "CocaCola",
+            1: "Fanta",
+            2: "Gingerbeer",
+            3: "Portello",
+            4: "Soda",
+            5: "Sprite",
+            6: "Water"
         }
     }
     
@@ -171,7 +168,7 @@ def train_yolov11(
 ):
     """
     Train YOLOv11 model.
-    
+
     Args:
         data_yaml: Path to dataset YAML config
         model_name: YOLOv11 model variant (n, s, m, l, x)
@@ -184,7 +181,7 @@ def train_yolov11(
     """
     # Load model
     model = YOLO(f"{model_name}.pt")
-    
+
     # Train
     print(f"\n🚀 Starting training with {model_name}...")
     results = model.train(
@@ -211,7 +208,7 @@ def train_yolov11(
         perspective=0.0,
         verbose=True
     )
-    
+
     return results
 
 
